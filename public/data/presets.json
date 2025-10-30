@@ -1,0 +1,26 @@
+[
+  {
+    "id": "celestial-keys",
+    "name": "Celestial Keys",
+    "description": "Ethereal keys with shimmering overtones and evolving pads for ambient tracks.",
+    "mood": "Ambient",
+    "tempo": 90,
+    "tags": ["pad", "keys", "atmospheric"]
+  },
+  {
+    "id": "neon-groove",
+    "name": "Neon Groove",
+    "description": "Futuristic synth bass layered with punchy drums for electronic and pop productions.",
+    "mood": "Energetic",
+    "tempo": 120,
+    "tags": ["bass", "drums", "electro"]
+  },
+  {
+    "id": "lofi-muse",
+    "name": "Lo-Fi Muse",
+    "description": "Warm, dusty textures and relaxed rhythms perfect for study beats and background vibes.",
+    "mood": "Chill",
+    "tempo": 72,
+    "tags": ["lofi", "textures", "melody"]
+  }
+]
