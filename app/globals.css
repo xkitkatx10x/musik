@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  @apply font-sans antialiased bg-slate-950 text-slate-100;
+}
+
+a {
+  @apply text-accent transition-colors hover:text-secondary;
+}
+
+.gradient-border {
+  position: relative;
+}
+
+.gradient-border::after {
+  content: '';
+  position: absolute;
+  inset: -1px;
+  background: linear-gradient(120deg, rgba(109, 40, 217, 0.7), rgba(34, 211, 238, 0.7), rgba(249, 115, 22, 0.7));
+  border-radius: inherit;
+  filter: blur(12px);
+  opacity: 0.8;
+  z-index: -1;
+}
+
+.glass-panel {
+  @apply rounded-3xl border border-white/10 bg-white/5 backdrop-blur-2xl shadow-glass;
+}
+
+.badge {
+  @apply inline-flex items-center gap-2 rounded-full bg-white/10 px-4 py-1 text-xs font-semibold uppercase tracking-[0.2em];
+}
+
+.section-title {
+  @apply text-3xl font-display font-semibold tracking-tight text-white sm:text-4xl md:text-5xl;
+}
+
+.section-subtitle {
+  @apply text-base text-slate-300 sm:text-lg;
+}
+
+.card-title {
+  @apply text-xl font-semibold text-white;
+}
+
+.card-description {
+  @apply text-sm text-slate-300;
+}
+
+button {
+  @apply focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-slate-950;
+}
